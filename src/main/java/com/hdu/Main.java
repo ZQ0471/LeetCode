@@ -15,10 +15,6 @@ public class Main {
         Arrays.sort(nums);
         int count = 0;
         int min = Integer.MAX_VALUE;
-        if(nums[nums.length - 1]-nums[0]==0){
-            System.out.println(0);
-            return;
-        }
         while (true) {
             count++;
             int newMin = nums[nums.length - 1] - nums[0];
